@@ -1,10 +1,13 @@
 {
-  "workbench.startupEditor": "welcomePage",
-  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.startupEditor": "none",
+  // Moved back to the left side to match the screenshot alignment
+  "workbench.activityBar.location": "default",
+  "workbench.sideBar.location": "left",
+
   "workbench.editor.showTabs": "single",
   "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
-  "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 8,
@@ -18,7 +21,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "block",
-  "editor.fontFamily": "Fira Mono",
+  "editor.fontFamily": "Source Code Pro",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.5,
@@ -34,8 +37,13 @@
   "files.insertFinalNewline": true,
   "scm.diffDecorations": "none",
 
-  // "on", "off", "relative" or "interval"
-  "editor.lineNumbers": "on",
+  // Updated to relative to match the numbering layout in the image
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 10,
+
+  // Enabled word wrap to match the cleanly bounded text layout in the image
+  "editor.wordWrap": "on",
+  "markdown.preview.breaks": true,
 
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
@@ -50,7 +58,7 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.quickSuggestions": {
-    "other": "on",
+    "other": "on"
   },
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabCompletion": "on",
